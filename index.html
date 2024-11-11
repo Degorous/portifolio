@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="menu">
+      <h1 class="header__title">Erick Palombo</h1>
+      <ul class="menu__list">
+        <li class="menu__link"><a href="#about">Sobre mim</a></li>
+        <li class="menu__link"><a href="#skills">Skills</a></li>
+        <li class="menu__link"><a href="#hobbies">Hobbies</a></li>
+        <li class="menu__link"><a href="#training">Formação</a></li>
+        <li class="menu__link"><a href="#projects">Projetos</a></li>
+        <li class="menu__link"><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="about" id="about">
+      <h2 class="about__title">Sobre mim</h2>
+      <p>Olá, meu nome é Erick</p>
+    </section>
+  
+    <section class="skills" id="skills">
+      <h2 class="skills__title">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__list__element">
+          <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white
+          " alt="Logo Ruby">
+        </li>
+        <li class="skills__list__element">
+          <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="Logo Ruby on Rails">
+        </li>
+        <li class="skills__list__element">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Logo HTML5">
+        </li>
+        <li class="skills__list__element">
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+        </li>
+        <li class="skills__list__element">
+          <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Logo Javascript">
+        </li>
+        <li class="skills__list__element">
+          <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white
+          " alt="Logo Git">
+        </li>
+      </ul>
+    </section>
+  
+    <section class="hobbies" id="hobbies">
+      <h2 class="hobbie__title">Hobbies</h2>
+      <ul class="hobbies__list">
+        <li class="hobbies__list__element">
+          <img src="./assets/gym.png" alt="">
+          <p>Academia</p>
+        </li>
+        <li class="hobbies__list__element">
+          <img src="./assets/joystick.png" alt="">
+          <p>Jogos</p>
+        </li>
+        <li class="hobbies__list__element">
+          <img src="./assets/movie-player.png" alt="">
+          <p>Filmes e Séries</p>
+        </li>
+      </ul>
+    </section>
+  
+    <section class="training" id="training">
+      <h2 class="training__title">Formação</h2>
+      <ul class="training__list">
+        <li class="training__title">
+          <img src="./assets/ONE.png" alt="Imagem da Oracle Next Education">
+          <section>
+            <p>Curso de Front-End</p>
+            <p>2024 - ONE</p>
+          </section>
+        </li>
+        <li class="training__title">
+          <img src="./assets/treinadev.jpg" alt="Imagem do TreinaDev">
+          <section>
+            <p>Curso de Desenvolvedor Web</p>
+            <p>2023 - TreinaDev</p>
+          </section>
+        </li>
+        <li class="training__title">
+          <img src="./assets/cgb.png" alt="Imagem do Colégio GrahamBell">
+          <section>
+            <p>Curso Técnico de Telecomunicações</p>
+            <p>2013 - Colégio GrahamBell</p>
+          </section>
+        </li>
+      </ul>
+    </section>
+  
+    <section class="projects" id="projects">
+      <h2 class="projects__title">Projetos</h2>
+      <ul class="projects__list">
+        <li class="projects__list__element">
+          <p>Projeto do Número Secreto</p>
+          <a href="https://github.com/Degorous/jogo-do-numero-secreto" target="_blank">Repositório</a>
+        </li>
+        <li class="projects__list__element">
+          <p>Decodificador de Texto</p>
+          <a href="https://github.com/Degorous/decodificador_de_texto" target="_blank">Repositório</a>
+        </li>
+      </ul>
+    </section>
+  
+    <section class="contact" id="contact">
+      <h2 class="contact__title">Contato</h2>
+        <form id="contact-form">
+          <section class="form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" required>
+          
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+          
+            <button type="submit">Enviar</button>
+          </section>
+        </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Desenvolvido por Erick Palombo</p>
+    <p>2024</p>
+  </footer>
+  
+  <script src="./js/script.js"></script>
+</body>
+</html>
