@@ -58,6 +58,11 @@ h2 {
   gap: 32px;
 }
 
+.about h2,
+.about p {
+  color: var(--cor4)
+}
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -73,6 +78,8 @@ h2 {
 
 .skills__list__element {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   width: 150px;
@@ -116,6 +123,10 @@ h2 {
   background-color: var(--cor3);
   padding: 2% 10%;
   gap: 32px;
+}
+
+.training h2 {
+  color: var(--cor4)
 }
 
 .training__list {
@@ -197,11 +208,19 @@ h2 {
   gap: 32px;
 }
 
+.contact h2 {
+  color: var(--cor4)
+}
+
 .form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 90%;
+}
+
+.form label {
+  color: var(--cor4);
 }
 
 .form button {
